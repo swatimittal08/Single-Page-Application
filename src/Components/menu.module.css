@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#exploreBlock{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+#exploreBlock > article{
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#exploreBlock > article >.summary{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    /* background-color: red; */
+}
+
+#exploreBlock > article >.image{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    /* background-color: blue; */
+} 
+
+#exploreBlock > article >.summary{
+    height: 100%;
+    width: 50%;
+    color: black;
+}
+
+#exploreBlock > article >.summary >.one{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#exploreBlock > article >.summary >.one >h2{
+    font-size: larger;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2d3436;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#exploreBlock > article >.summary >.one >h1{
+    font-size: larger;
+    font-weight: 800;
+    font-size: 40px;
+    color: rgb(45,136,226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#exploreBlock > article >.summary >.one >p{
+    font-size: larger;
+    font-weight: 100;
+    font-size: 24px;
+    color: #2d3436;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#exploreBlock > article >.summary >.one >.buttonone{
+    background-color: rgb(45,136,226);
+    color: whitesmoke;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    /* font-size: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#exploreBlock > article >.summary >.one >.buttontwo{
+    background-color: white;
+    color: rgb(45,136,226);
+    border: 1px solid rgb(45,136,226);
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    /* font-size: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+
+#middle{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+#middle > article{
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#middle > article >.one{
+    height: 70vh;
+    width: 50%;
+    /* background-color: blue; */
+} 
+
+#middle > article >.two{
+    height: 70vh;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#middle > article >.two >h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#middle > article >.two >h2{
+    color: rgb(45,136,226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#middle > article >.two >p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #8395a7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#middle > article >.two >.button{
+    background-color: white;
+    color: rgb(45,136,226);
+    border: none;
+    margin-left: 38px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+
+#middleone{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+#middleone > article{
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#middleone > article >.one{
+    height: 70vh;
+    width: 50%;
+    /* background-color: blue; */
+} 
+
+#middleone > article >.two{
+    height: 70vh;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#middleone > article >.one >h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#middleone > article >.one >h2{
+    color: rgb(45,136,226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#middleone > article >.one >p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #8395a7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#middleone > article >.two >.button{
+    background-color: white;
+    color: rgb(45,136,226);
+    border: none;
+    margin-left: 38px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    /* font-size: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+#middleone > article >.one >.button{
+    background-color: white;
+    color: rgb(45,136,226);
+    border: none;
+    margin-left: 38px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+
+#middletwo{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+#middletwo > article{
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#middletwo > article >.one{
+    height: 70vh;
+    width: 50%;
+    /* background-color: blue; */
+} 
+
+#middletwo > article >.two{
+    height: 70vh;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#middletwo > article >.two >h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#middletwo > article >.two >h2{
+    color: rgb(45,136,226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#middletwo > article >.two >p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #8395a7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#middletwo > article >.two >.button{
+    background-color: white;
+    color: rgb(45,136,226);
+    border: none;
+    margin-left: 38px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+
+#middlethree{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+#middlethree > article{
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#middlethree > article >.one{
+    height: 70vh;
+    width: 50%;
+    /* background-color: blue; */
+} 
+
+#middlethree > article >.two{
+    height: 70vh;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#middlethree > article >.one >h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#middlethree > article >.one >h2{
+    color: rgb(45,136,226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#middlethree > article >.one >p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #8395a7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#middlethree > article >.one >.button{
+    background-color: white;
+    color: rgb(45,136,226);
+    border: none;
+    margin-left: 38px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+
+#footerBlock {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+} 

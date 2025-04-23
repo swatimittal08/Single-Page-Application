@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 4px gainsboro;
+}
+
+#nav > article{
+    height: 70px;
+    width: 95%;
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+
+#nav > article >.Logo{
+    height: 70px;
+    width: 30%;
+    /* background-color: yellow; */
+}
+
+#nav > article >.Menu{
+    height: 70px;
+    width: 40%;
+    /* background-color: lightblue; */
+}
+
+#nav > article >.Button{
+    height: 70px;
+    width: 30%;
+    /* background-color: green; */
+}
+
+#logoBlock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logoBlock > p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    color: rgb(45,136,226);
+}
+
+#menuBlock{
+    height: 100%;
+    width: 100%;
+    margin-right: 15px;
+}
+
+#menuBlock > ol{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    /* margin-right: 12px;  */
+}
+
+#menuBlock > ol > li > a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(117,117,117);
+    font-weight: 500;
+}
+
+#menuBlock > ol > li > a:hover{
+    color: black; 
+}
+
+#buttonBlock{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+#buttonBlock > button{
+    height: 30px;
+    width: 35%;
+    align-items: center;
+    display: flex;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    justify-content: space-evenly;
+    /* justify-items: flex-start; */
+}
+
+#buttonBlock > button > svg{
+    width: 15%;
+    height: 80%;
+}
+
+#buttonbox > button > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+} 
